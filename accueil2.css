@@ -1,0 +1,141 @@
+header h1{
+    font-family: 'Great Vibes';
+    font-size: 5em;
+    color:black;
+    text-align: center;
+    margin:0;
+}
+body{
+    margin: 5px;
+    font-family: 'times new roman';
+    font-size: x-large;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px 15px 65px 15px;
+}
+
+header{
+    background-color:lightpink;
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-item{
+    display: flex; 
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 20px; 
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.quantity{
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.quantity input{
+ padding: 8px 30px 8px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#validate{
+    border-radius: 20px;
+    background-color: lightpink;
+    font-style: 'times new roman';
+    cursor: pointer;
+}
+
+#cart-image {
+  max-width: 300px;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+.product-card .price{
+    font-weight: bold;
+    color: #250404;
+    margin-top: 5px;
+}
+
+.product-card .add-to-cart{
+    border-radius: 20px;
+}
+.hero{
+    font-family: 'allura';
+    font-style: italic;
+    color: #322c2c;
+    font-weight: bold;
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+footer{
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    left:0;
+    bottom:0;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 20;
+    color:rgb(69, 59, 59);
+    font-weight: bold;
+    font-size:large;
+    padding: 15px; 
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     }
+
+.add-to-cart {
+    padding: 8px 12px;
+    margin-top:auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+/* Fond assombri */
+.popup {
+  display: none; /* caché par défaut */
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5); /* arrière-plan semi-transparent */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenu de la popup */
+.popup-content {
+  background: lightpink;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.popup-content h2 {
+  color: black;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}

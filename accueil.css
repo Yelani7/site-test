@@ -1,0 +1,136 @@
+header h1{
+    font-family: 'Great Vibes';
+    font-size: 5em;
+    color:black;
+    text-align: center;
+    margin:0;
+}
+body{
+    margin: 5px;
+    font-family: 'times new roman';
+    font-size: x-large;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px 15px 65px 15px;
+}
+
+header{
+    background-color:lightpink;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container{
+    position: absolute;
+    top: 20px;
+    right: auto;
+} 
+
+.search-container input{ 
+    padding: 8px 30px 8px 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.product-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 22px;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card{
+    background-color:white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card h3{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+.product-card .price{
+    font-weight: bold;
+    color: #250404;
+    margin-top: 5px;
+}
+
+.product-card .add-to-cart{
+    border-radius: 20px;
+}
+.hero{
+    font-family: 'allura';
+    font-style: italic;
+    color: #322c2c;
+    font-weight: bold;
+    background-color:whitesmoke;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}
+footer{
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    left:0;
+    bottom:0;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 20;
+    color:rgb(69, 59, 59);
+    font-weight: bold;
+    font-size:large;
+    padding: 15px; 
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     }
+
+.add-to-cart {
+    padding: 8px 12px;
+    margin-top:auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a.active {
+  border-bottom: 2px lightpink; 
+}
+

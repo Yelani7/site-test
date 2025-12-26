@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panier</title>
+    <link rel="stylesheet" href="accueil2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+</head>
+<body>
+   <header>
+    <h1>YELANI</h1>
+ <nav> 
+    <a href="index.html">Accueil</a>
+    <a href="categorie.html">Nos produits</a>
+    <a href="infos.html">A propos</a>
+    <a href="panier.html"> 🛒Panier</a>
+</nav>
+   </header>
+   <section class="cart-item">
+        <img id="cart-image" src="" alt="">
+        <em><h2 id="cart-name"></h2></em>
+        <p id="cart-price"></p>
+        <p id="cart-description"></p>
+     <div class="quantity">
+       <button id="minus">-</button>
+       <input type="text" id="quantity" value="1" readonly>
+       <button id="plus">+</button>
+     </div>
+     <button id="validate"><em>Shop now!</em></button>
+       </section>
+<!-- Popup cachée -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h2>Commande effectuée ✅</h2>
+    <p id="invoice-name"></p>
+    <p id="invoice-quantity"></p>
+    <p id="invoice-price"></p>
+    <button id="close-popup">Fermer</button>
+  </div>
+</div>
+
+   <footer>
+    &copy 2025 Yelani. Tous droits reserves.
+</footer> 
+<script src="script2.js"></script>
+</body>
+</html>
